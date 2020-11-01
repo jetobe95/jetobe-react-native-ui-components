@@ -1,5 +1,7 @@
-export default {
-  multiply(a: number, b: number) {
-    return Promise.resolve(a * b);
-  },
+import { Row } from './Row';
+import { SizedBox } from './SizedBox';
+const UIComponents = {
+  Row,
+  SizedBox,
 };
+export default UIComponents;

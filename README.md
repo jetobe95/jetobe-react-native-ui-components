@@ -5,13 +5,13 @@ Componentes parecidos a los de flutter
 ## Installation
 
 ```sh
-npm install ui-components
+npm install jetobe-react-native-ui-components
 ```
 
 ## Usage
 
 ```js
-import UiComponents from "ui-components";
+import UiComponents from "jetobe-react-native-ui-components";
 
 // ...
 

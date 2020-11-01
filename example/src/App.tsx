@@ -1,17 +1,14 @@
 import * as React from 'react';
-import { StyleSheet, View, Text } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 import UiComponents from 'ui-components';
 
 export default function App() {
-  const [result, setResult] = React.useState<number | undefined>();
-
-  React.useEffect(() => {
-    UiComponents.multiply(3, 7).then(setResult);
-  }, []);
-
   return (
     <View style={styles.container}>
-      <Text>Result: {result}</Text>
+      <UiComponents.Row>
+        <UiComponents.SizedBox width={10} />
+        <UiComponents.SizedBox height={10} />
+      </UiComponents.Row>
     </View>
   );
 }

@@ -1,6 +1,6 @@
 {
-  "name": "ui-components",
-  "version": "0.1.0",
+  "name": "jetobe-react-native-ui-components",
+  "version": "0.1.2",
   "description": "Componentes parecidos a los de flutter",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -34,11 +34,11 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/jetobe95/ui-components",
+  "repository": "https://github.com/jetobe95/jetobe-react-native-ui-components",
   "author": "Jeffrey <alto.951@hotmail.com> (https://github.com/jetobe95)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jetobe95/ui-components/issues"
+    "url": "https://github.com/jetobe95/jetobe-react-native-ui-components/issues"
   },
   "homepage": "https://github.com/jetobe95/ui-components#readme",
   "devDependencies": {
